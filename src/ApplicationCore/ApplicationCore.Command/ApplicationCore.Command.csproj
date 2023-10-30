@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<NoWarn>CS8618</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationCore.Common\ApplicationCore.Common.csproj" />
+    <ProjectReference Include="..\ApplicationCore.Query.Domain.Shared\ApplicationCore.Domain.Shared.csproj" />
+    <ProjectReference Include="..\ApplicationCore.Query.Domain\ApplicationCore.Domain.csproj" />
+    <ProjectReference Include="..\ApplicationCore.Query\ApplicationCore.Query.csproj" />
+  </ItemGroup>
+
+
+
+
+</Project>

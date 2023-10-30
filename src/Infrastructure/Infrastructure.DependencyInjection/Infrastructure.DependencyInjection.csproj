@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ApplicationCore\ApplicationCore.Command\ApplicationCore.Command.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ApplicationCore.Query\ApplicationCore.Query.csproj" />
+    <ProjectReference Include="..\Infrastructure.DbMigrations\Infrastructure.DbMigrations.csproj" />
+    <ProjectReference Include="..\Infrastructure.Persistence\Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\Infrastructure.Query\Infrastructure.Query.csproj" />
+  </ItemGroup>
+
+</Project>

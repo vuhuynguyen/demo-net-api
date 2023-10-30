@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<NoWarn>CS8618</NoWarn>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DelegateDecompiler" Version="0.32.0" />
+    <PackageReference Include="DelegateDecompiler.EntityFrameworkCore5" Version="0.32.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationCore.Common\ApplicationCore.Common.csproj" />
+    <ProjectReference Include="..\ApplicationCore.Query.DataModel\ApplicationCoreQuery.DataModel.csproj" />
+    <ProjectReference Include="..\ApplicationCore.Query.Domain.Shared\ApplicationCore.Domain.Shared.csproj" />
+    <ProjectReference Include="..\ApplicationCore.Query.Domain\ApplicationCore.Domain.csproj" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Folder Include="Features\Rooms\Models\" />
+  </ItemGroup>
+
+</Project>

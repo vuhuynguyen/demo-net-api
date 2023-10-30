@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<NoWarn>CS8602</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ApplicationCore\ApplicationCore.Common\ApplicationCore.Common.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ApplicationCore.Query.DataModel\ApplicationCoreQuery.DataModel.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ApplicationCore.Query.Domain.Shared\ApplicationCore.Domain.Shared.csproj" />
+    <ProjectReference Include="..\..\ApplicationCore\ApplicationCore.Query\ApplicationCore.Query.csproj" />
+  </ItemGroup>
+
+</Project>
