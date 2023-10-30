@@ -16,7 +16,8 @@ public class RoomController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpPost]
+    [HttpGet]
+    [Route("best-reservation-option")]
     public async Task<ActionResult<string>> Add(
         [FromQuery] int numberOfGuests)
     {
