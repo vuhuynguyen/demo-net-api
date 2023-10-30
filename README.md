@@ -15,7 +15,7 @@ The Hexagon Architecture separates the core business logic from external concern
 This architecture promotes flexibility, testability, and maintainability by enforcing a clear separation of concerns and reducing dependencies on external frameworks.
 
 ## Architecture Diagram
-![download](https://github.com/vuhuynguyen/dotnet-api-application/assets/39457047/80964f71-7c0b-4224-bc27-1c72c95cb07d)
+![251672532-80964f71-7c0b-4224-bc27-1c72c95cb07d](https://github.com/vuhuynguyen/demo-net-api/assets/39457047/942fca5a-61c5-4aeb-91f2-a547e891f4dc)
 
 ## Live demo
 Check out the live demo of the project hosted on Azure.
